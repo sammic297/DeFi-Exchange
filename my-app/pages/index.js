@@ -459,11 +459,11 @@ export default function Home() {
             {/* Convert the BigNumber to string using the formatEther function from ethers.js */}
             {ethSelected
               ? `You will get ${utils.formatEther(
-                  tokenToBeRecievedAfterSwap
-                )} Crypto Dev Tokens`
+                tokenToBeRecievedAfterSwap
+              )} Crypto Dev Tokens`
               : `You will get ${utils.formatEther(
-                  tokenToBeRecievedAfterSwap
-                )} Eth`}
+                tokenToBeRecievedAfterSwap
+              )} Eth`}
           </div>
           <button className={styles.button1} onClick={_swapTokens}>
             Swap
@@ -482,7 +482,7 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs Exchange!</h1>
+          <h1 className={styles.title}>Welcome to CD Exchange!</h1>
           <div className={styles.description}>
             Exchange Ethereum &#60;&#62; Crypto Dev Tokens
           </div>
@@ -512,7 +512,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by Odey (Rinkeby Testnet)
       </footer>
     </div>
   );
